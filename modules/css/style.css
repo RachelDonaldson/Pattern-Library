@@ -1,0 +1,75 @@
+/*---------- CSS Reset ----------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+
+/*---------- Links ----------*/
+
+a {
+  color: ##3c3c3b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #103254;
+  border-bottom: 1px dotted;}
+
+
+/*---------- Nav Style ----------*/
+
+nav {
+  top:0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  background-color:#fafafa;
+  padding: 2em 0 2em 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85em;
+  box-shadow: 0em 0em 1.5em 0.3em rgba(0,0,0,0.2);
+  position: fixed;
+  z-index: 99;
+}
+
+
+nav ul{
+  padding-right: 15vw;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+  background: none;}
+
+nav a:link {
+  color: #ac1065}
+
+nav a:visited {
+  color: #ac1065}
+
+nav a:hover {
+  border-bottom: none;
+  color: #333;
+  transition: all 0.3s ease-in-out; }
+
+.logo {
+  color: #ac1065;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+  padding-right: 30vw;
+}
+
+@media only screen and (max-width: 710px) {
+  nav {
+    padding: 0.5em;
+  }
+}

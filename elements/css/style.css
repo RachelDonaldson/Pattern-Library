@@ -1,0 +1,120 @@
+/*---------- CSS Reset ----------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+/*--------- MAIN STYLING --------*/
+body {
+  background: #fdfdfd;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*------ NAVIGATION-1 ------*/
+#navigation-1 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #534858;
+  padding: 1em 0;
+  font-size: 0.75;
+}
+
+#navigation-1 nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#navigation-1 nav ul li {
+  display: inline;
+  margin: 20px;
+  background: none;
+}
+
+#navigation-1 nav a {
+  color: #fdf0ea
+}
+
+#navigation-1 nav a:visited {
+  color: #fdf0ea;
+}
+
+#navigation-1 nav a:hover {
+  border-bottom: none;
+  color: #ffd8c8;
+}
+
+/*------ NAVIGATION-2 ------*/
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+nav {
+    padding: 1em 0;
+    margin-bottom: 4em;
+    background: #1a1a1a;
+}
+
+nav ul {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    font-size: 0.75em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+nav ul li {
+    display: inline;
+    margin: 12px;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #cc9a5e;
+}
+
+
+/*------ STYLING TABLE ------*/
+table {
+  margin: auto;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+caption {
+  margin: 1.5em 0;
+  text-transform: uppercase;
+}
+
+th {
+  color: #fdfdfd;
+  font-weight: normal;
+  text-align: left;
+  background: #ac1065;
+}
+
+th, td {
+  padding: 0.6em
+}
+
+table, td{
+  background: #fbe3da;
+  border: 1px solid #fdfdfd;
+}
