@@ -2,13 +2,11 @@
 A collection of user interface design elements
 
 
-[Navs](https://racheldonaldson.github.io/pattern-library/elements/nav.html)
+[Navs](https://racheldonaldson.github.io/pattern-library/elements/navs.html)
 2 navigations syles
 
-[Tables](https://racheldonaldson.github.io/john_baskerville_v2/john_baskerville_v2.html)
+[Tables](https://racheldonaldson.github.io/pattern-library/elements/tables.html)
 Different forms of tables
 
-[Headers](https://racheldonaldson.github.io/john_baskerville_v2/john_baskerville_v3.html)
+[Headers](https://racheldonaldson.github.io/pattern-library/modules/headers.html)
 Header featuring a logo and nav links
-
- https://racheldonaldson.github.io/pattern-library/elements/navs.html
